@@ -1,9 +1,9 @@
 // Get the hour
-const today = new Date();
-const hour = today.getHours();
+const Today = new Date();
+const hour = Today.getHours();
 
 // Here you can change your name
-const name = ' John Doe';
+const name = ' Rob1 ';
 
 // Here you can change your greetings
 const gree1 = 'Go to Sleep!  ';
