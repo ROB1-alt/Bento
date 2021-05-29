@@ -1,18 +1,18 @@
 window.onload = displayClock();
 function displayClock() {
   const monthNames = [
-    'Jan',
-    'Feb',
-    'Mar',
-    'Apr',
-    'May',
-    'Jun',
-    'Jul',
-    'Aug',
-    'Sep',
-    'Oct',
-    'Nov',
-    'Dec',
+    'Janvier',
+    'Février',
+    'Mars',
+    'Avril',
+    'Mai',
+    'Juin',
+    'Juillet',
+    'Aout',
+    'Septembre',
+    'Octobre',
+    'Novembre',
+    'Décembre',
   ];
 
   // Set to true to use a 12 hour date format
