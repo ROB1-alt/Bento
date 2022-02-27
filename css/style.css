@@ -2,6 +2,16 @@
 
 /* V A R I A B L E S */
 
+
+::selection {
+	background: #50f0ab; /* WebKit/Blink Browsers */
+	color:#FFF;
+}
+::-moz-selection {
+	background: #50f0ab; /* Gecko Browsers */
+	color:#FFF;
+}
+
 :root {
   /* Fonts  */
   --fsg: 135px; /* Time and Greetings */
@@ -10,7 +20,7 @@
   --fses: 16px; /* Links List */
 
   /* Light theme  */
-  --accent: #4b8ec4; /* Hover color */
+  --accent: #50f0ab; /* Hover color */
   --bg: #F7F0F0; /* Background color */
   --sbg: #e4e6e6; /* Cards color */
   --fg: #3a3a3a; /* Foreground color */
@@ -31,7 +41,7 @@
 
 /* Dark theme  */
 .darktheme {
-  --accent: #4b8ec4; /* Hover color */
+  --accent: #50f0ab ; /* Hover color */
   --bg: #19171a; /* Background color */
   --sbg: #201e21; /* Cards color */
   --fg: #d8dee9; /* Foreground color */
