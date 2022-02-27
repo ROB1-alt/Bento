@@ -1,14 +1,11 @@
-// Get the hour
 const Today = new Date();
 const hour = Today.getHours();
 
-// Here you can change your name
 const name = ' Rob1 ';
 
-// Here you can change your greetings
 const gree1 = 'Va te coucher,  ';
 const gree2 = 'Bonne matinée,  ';
-const gree3 = 'Bon après-midi,  ';
+const gree3 = 'Bonne après-midi,  ';
 const gree4 = 'Bonne soirée, ';
 const gree5 = 'Bonne nuit, ';
 const gree6 = 'Bonne nuit,  ';

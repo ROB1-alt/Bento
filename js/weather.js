@@ -2,13 +2,11 @@ const iconElement = document.querySelector('.weather-icon');
 const tempElement = document.querySelector('.temperature-value p');
 const descElement = document.querySelector('.temperature-description p');
 
-// App data
 const weather = {};
 weather.temperature = {
   unit: 'celsius',
 };
 
-// Change to 'F' for Fahrenheit
 var tempUnit = 'C';
 
 const KELVIN = 273.15;
@@ -19,7 +17,6 @@ const key = '902e697b02139c937a06cc788e139f7c';
 setPosition();
 
 function setPosition(position) {
-  // Here you can change your position
   // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
   let latitude = 48.469070;
   let longitude = 2.707180;
